@@ -1,4 +1,8 @@
 export default function HeroSection() {
+  const openResume = () => {
+    window.open("img/Resume_Tran.pdf", "_blank", "fileName=resume_tran.pdf");
+  };
+
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
@@ -13,8 +17,9 @@ export default function HeroSection() {
             <br /> Learn more about me below and download my CV!
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
-        <button className="btn btn-primary">Download Resume/CV</button>
+        <button className="btn btn-primary" onClick={openResume}>
+          Download Resume/CV
+        </button>
       </div>
       <div className="hero--section--img">
         <img src="./img/hero_img2.png" alt="Hero Section" />

@@ -60,6 +60,9 @@ p {
   color: var(--white);
   background-color: var(--primary);
   border: 1px solid var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btn-primary:hover {
   color: var(--primary);
@@ -198,8 +201,9 @@ h2 {
 }
 .hero--section--content-box {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
   gap: 32px;
 }
 .hero--section--content {
@@ -323,6 +327,9 @@ h2 {
 .about--section--img > img {
   width: 60%;
   height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* About Us Ends */
 

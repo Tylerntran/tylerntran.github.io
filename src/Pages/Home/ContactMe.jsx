@@ -1,13 +1,32 @@
 export default function ContactMe() {
+  const openEmail = () => {
+    window.open("mailto:tntran@usc.edu", "_blank");
+  };
   return (
     <section id="Contact" className="contact--section">
       <div>
         <h2>Contact Me</h2>
-        <p className="text-lg">
-          Send me a message here or email me at tntran@usc.edu
-        </p>
+        <p className="text-lg">Please email me at tntran@usc.edu</p>
       </div>
-      <form className="contact--form--container">
+      <div>
+        <button className="btn btn-github" onClick={openEmail}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 33 33"
+            fill="none">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M4 6h24a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm0-2a4 4 0 0 0-4 4v12a4 4 0 0 0 4 4h24a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4z M2 8a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V6l-14 9-14-9V8z"
+              fill="currentColor"
+            />
+          </svg>
+          Send me a message!
+        </button>
+      </div>
+      {/* <form className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">Name</span>
@@ -42,7 +61,7 @@ export default function ContactMe() {
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
         </div>
-      </form>
+      </form> */}
     </section>
   );
 }
