@@ -1,0 +1,84 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "I have experience building backend APIs for full-stack projects in languages such as Java, Python, and Javascript (Node.js)"
+    },
+    {
+      "id": "2",
+      "src": "./img/feather-pen-2.png",
+      "title": "AI/Machine Learning",
+      "description": "Made machine learning models and neural networks to solve problems including diabetes detection using Python and libraries like Tensorflow"
+    },
+    {
+      "id": "3",
+      "src": "./img/product-chain-1.png",
+      "title": "Database Design",
+      "description": "Extensive experience in using SQL and MongoDB to manage databases and make complex queries including advanced aggregate calls"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Front-End",
+      "description": "I'm with industry-leading frameworks and technologies such as React, HTML/CSS, and Javascript to create responsive websites"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/portfolio1.png",
+      "title": "Diabetes Prediction (Machine Learning)",
+      "description": "Use classical machine learning algorithms to analyze and predict possibility of diabetes based on several factors (glucose levels, BMI, Age, etc.",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/portfolio2.png",
+      "title": "Plan My Day",
+      "description": "Utilize skills in android development and used industry standard Google Map API to create, plan, and optimize routes around LA. Select out of a list of locations and Plan My Day will plan a route and map it while taking into account of time and distance.",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/portfolio3.png",
+      "title": "Radiant Scheduler",
+      "description": "An advanced appointment scheduling tool for easily schedule appointments and viewed on a calender, tailored for special services. Created a detailed dashboard to show statistics and appointment data, including top services and appointment rates per month.",
+      "link": "View In Github"
+    },
+    {
+      "id": "4",
+      "src": "./img/portfolio4.png",
+      "title": "Roomiez",
+      "description": "An roommate task scheduling board to create groups and assign tasks and chores for roommates to do. Utilized Java emailing services to send reminders",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
