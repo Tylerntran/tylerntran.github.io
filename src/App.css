@@ -212,10 +212,7 @@ h2 {
   align-items: flex-start;
   gap: 21.333px;
 }
-.hero--section--img {
-  height: 100%;
-  width: 70%;
-}
+
 .hero--section--content--box > button {
   margin-top: 21.333px;
 }
@@ -235,13 +232,12 @@ h2 {
   font-weight: 400;
   line-height: 36px;
 }
-.hero--section--img {
-  display: flex;
-}
+
 .hero--section--img > img {
-  width: 100%;
+  width: 70%;
   height: 100%;
   border-radius: 30px;
+  display: flex;
 }
 /* Hero Section Style Ends */
 
