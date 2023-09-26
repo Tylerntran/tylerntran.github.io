@@ -28,15 +28,16 @@ export default function ContactMe() {
           Click here to create an email!
         </button>
       </div>
-      <form className="contact--form--container" netlify>
+      <form className="contact--form--container" method="post">
         <div className="container">
-          <label htmlFor="first-name" className="contact--label">
+          <input type="hidden" name="form-name" value="contact" />
+          <label htmlFor="name" className="contact--label">
             <span className="text-md">Name</span>
             <input
               type="text"
               className="contact--input text-md"
-              name="first-name"
-              id="first-name"
+              name="name"
+              id="name"
               required
             />
           </label>
@@ -55,6 +56,7 @@ export default function ContactMe() {
           <span className="text-md">Message</span>
           <textarea
             className="contact--input text-md"
+            name="message"
             id="message"
             rows="8"
             placeholder="Type your message..."
