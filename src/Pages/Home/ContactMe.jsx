@@ -6,7 +6,9 @@ export default function ContactMe() {
     <section id="Contact" className="contact--section">
       <div>
         <h2>Contact Me</h2>
-        <p className="text-lg">Please email me at tntran@usc.edu</p>
+        <p className="text-lg">
+          Please fill the form or email me at tntran@usc.edu
+        </p>
       </div>
       <div>
         <button className="btn btn-github" onClick={openEmail}>
@@ -23,10 +25,10 @@ export default function ContactMe() {
               fill="currentColor"
             />
           </svg>
-          Send me a message!
+          Click here to create an email!
         </button>
       </div>
-      {/* <form className="contact--form--container">
+      <form className="contact--form--container" netlify>
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">Name</span>
@@ -61,7 +63,7 @@ export default function ContactMe() {
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
         </div>
-      </form> */}
+      </form>
     </section>
   );
 }
